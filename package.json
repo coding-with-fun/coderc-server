@@ -1,0 +1,15 @@
+{
+    "name": "coderc-server",
+    "version": "1.0.0",
+    "main": "server.js",
+    "author": "Harsh Patel <dev@coderc.in>",
+    "license": "MIT",
+    "private": false,
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^5.12.9"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
