@@ -1,8 +1,8 @@
 const { Router } = require("express");
-const UserSignIn = require("../controllers/restaurant-app/auth/UserSignIn");
+const RestaurantAppRouter = require("./RestaurantApp");
 
 const router = Router();
 
-router.get("/", UserSignIn);
+router.use("/restaurant-app", RestaurantAppRouter);
 
 module.exports = router;
