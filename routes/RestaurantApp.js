@@ -3,6 +3,6 @@ const UserSignIn = require("../controllers/RestaurantApp/auth/UserSignIn");
 
 const RestaurantAppRouter = Router();
 
-RestaurantAppRouter.get("/", UserSignIn);
+RestaurantAppRouter.get("/signin", UserSignIn);
 
 module.exports = RestaurantAppRouter;
